@@ -1,0 +1,20 @@
+Input:
+“I project my internal tension onto the environment.”
+{
+  "structure_diagnosis": {
+    "dimension": "3D",
+    "subject_position": "foregrounded",
+    "fold_state": "unfolded",
+    "noise_sources": ["projection", "internal-external inversion"]
+  },
+  "tension_map": [
+    {
+      "type": "boundary",
+      "location": "internal-external boundary",
+      "description": "Internal tension is assigned to external conditions."
+    }
+  ],
+  "unfolded_expression": "The speaker treats internal tension as an external property.",
+  "recommended_shift": "Differentiate internal states from environmental signals.",
+  "rewritten_structure_language": "Internal tension is being rendered as external reality."
+}
