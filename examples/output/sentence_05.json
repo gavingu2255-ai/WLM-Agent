@@ -1,0 +1,20 @@
+Input:
+“When someone doesn’t reply quickly, I assume I did something wrong.”
+{
+  "structure_diagnosis": {
+    "dimension": "2D",
+    "subject_position": "foregrounded",
+    "fold_state": "folded",
+    "noise_sources": ["projection", "causal_inversion"]
+  },
+  "tension_map": [
+    {
+      "type": "orientation_shift",
+      "location": "causal frame",
+      "description": "Lack of response is interpreted as personal fault."
+    }
+  ],
+  "unfolded_expression": "The speaker treats delayed responses as evidence of personal error.",
+  "recommended_shift": "Separate external timing from internal self-evaluation.",
+  "rewritten_structure_language": "A neutral delay is being interpreted as self-caused."
+}
