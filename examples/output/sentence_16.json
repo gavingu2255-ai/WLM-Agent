@@ -1,0 +1,20 @@
+Input:
+“I rely on imagined expectations instead of actual information.”
+{
+  "structure_diagnosis": {
+    "dimension": "3D",
+    "subject_position": "foregrounded",
+    "fold_state": "folded",
+    "noise_sources": ["expectation_projection", "data_displacement"]
+  },
+  "tension_map": [
+    {
+      "type": "orientation_shift",
+      "location": "information boundary",
+      "description": "Imagined expectations override available data."
+    }
+  ],
+  "unfolded_expression": "The speaker substitutes imagined expectations for real information.",
+  "recommended_shift": "Re-anchor evaluation in verified data rather than imagined scenarios.",
+  "rewritten_structure_language": "Projected expectations are being used in place of actual inputs."
+}
