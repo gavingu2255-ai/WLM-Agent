@@ -1,0 +1,25 @@
+Input:
+“I always feel like people are judging me even when they say nothing.”
+{
+  "structure_diagnosis": {
+    "dimension": "2D",
+    "subject_position": "foregrounded",
+    "fold_state": "folded",
+    "noise_sources": ["projection", "anticipatory_blending"]
+  },
+  "tension_map": [
+    {
+      "type": "boundary",
+      "location": "self-other boundary",
+      "description": "The speaker assigns internal evaluation to external observers."
+    },
+    {
+      "type": "orientation_shift",
+      "location": "temporal frame",
+      "description": "Assumes judgment is present even without evidence."
+    }
+  ],
+  "unfolded_expression": "The speaker treats silence as evidence of external evaluation.",
+  "recommended_shift": "Separate internal evaluation from assumed external perception.",
+  "rewritten_structure_language": "Internal judgment is being projected outward without confirmation."
+}
