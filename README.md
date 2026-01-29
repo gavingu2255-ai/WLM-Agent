@@ -1,3 +1,29 @@
+<p align="left">
+
+  <!-- Build / Test Status -->
+  <a href="https://github.com/gavingu2255-ai/WLM-Agent/actions">
+    <img src="https://img.shields.io/badge/tests-passing-brightgreen?style=flat-square" alt="Tests Passing">
+  </a>
+
+  <!-- Python Version -->
+  <img src="https://img.shields.io/badge/python-3.11-blue?style=flat-square" alt="Python 3.11">
+
+  <!-- License -->
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="MIT License">
+  </a>
+
+  <!-- Repo Size -->
+  <img src="https://img.shields.io/github/repo-size/gavingu2255-ai/WLM-Agent?style=flat-square" alt="Repo Size">
+
+  <!-- Last Commit -->
+  <img src="https://img.shields.io/github/last-commit/gavingu2255-ai/WLM-Agent?style=flat-square" alt="Last Commit">
+
+  <!-- Stars -->
+  <img src="https://img.shields.io/github/stars/gavingu2255-ai/WLM-Agent?style=flat-square" alt="GitHub Stars">
+
+</p>
+
 <p align="center">
   <h1>WLM‑Agent</h1>
   <p>The official implementation layer of the Wujie Language Model (WLM)</p>
