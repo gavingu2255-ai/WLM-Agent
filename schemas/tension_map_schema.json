@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WLM Tension Map Schema",
+  "type": "array",
+
+  "items": {
+    "type": "object",
+    "properties": {
+      "type": {
+        "type": "string",
+        "enum": ["boundary", "orientation_shift", "collapse_risk"]
+      },
+      "location": {
+        "type": "string",
+        "description": "Where the tension occurs in the structure"
+      },
+      "description": {
+        "type": "string",
+        "description": "Structural description of the tension"
+      }
+    },
+    "required": ["type", "location", "description"],
+    "additionalProperties": false
+  }
+}
