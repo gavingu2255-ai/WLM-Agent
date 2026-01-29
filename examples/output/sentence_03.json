@@ -1,0 +1,20 @@
+Input:
+“I keep replaying old mistakes as if they’re still happening now.”
+{
+  "structure_diagnosis": {
+    "dimension": "3D",
+    "subject_position": "foregrounded",
+    "fold_state": "multi-layer",
+    "noise_sources": ["temporal_blending", "identity_sticking"]
+  },
+  "tension_map": [
+    {
+      "type": "orientation_shift",
+      "location": "time axis",
+      "description": "Past events are treated as present conditions."
+    }
+  ],
+  "unfolded_expression": "The speaker overlays past errors onto the current moment.",
+  "recommended_shift": "Separate past events from present identity.",
+  "rewritten_structure_language": "Past mistakes are being rendered as active present data."
+}
