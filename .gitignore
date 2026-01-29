@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+*.egg-info/
+
+# Node / n8n
+node_modules/
+dist/
+build/
+npm-debug.log
+yarn-error.log
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Virtual environments
+.env/
+.venv/
+
+# Cache
+.cache/
