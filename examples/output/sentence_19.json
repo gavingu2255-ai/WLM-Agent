@@ -1,0 +1,20 @@
+Input:
+“I assume responsibility for variables I cannot control.”
+{
+  "structure_diagnosis": {
+    "dimension": "3D",
+    "subject_position": "collapsed",
+    "fold_state": "folded",
+    "noise_sources": ["responsibility_overreach", "control_expansion"]
+  },
+  "tension_map": [
+    {
+      "type": "boundary",
+      "location": "control boundary",
+      "description": "Uncontrollable variables are taken as personal responsibility."
+    }
+  ],
+  "unfolded_expression": "The speaker treats external variables as personal obligations.",
+  "recommended_shift": "Re-establish the boundary between controllable and uncontrollable factors.",
+  "rewritten_structure_language": "External variables are being absorbed into the responsibility frame."
+}
