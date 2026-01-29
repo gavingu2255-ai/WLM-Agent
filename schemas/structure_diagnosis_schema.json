@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WLM Structure Diagnosis Schema",
+  "type": "object",
+
+  "properties": {
+    "structure_diagnosis": {
+      "type": "object",
+      "properties": {
+        "dimension": {
+          "type": "string",
+          "enum": ["2D", "3D", "4D"]
+        },
+        "subject_position": {
+          "type": "string",
+          "enum": ["foregrounded", "collapsed", "transparent"]
+        },
+        "fold_state": {
+          "type": "string",
+          "enum": ["folded", "unfolded", "multi-layer"]
+        },
+        "noise_sources": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["dimension", "subject_position", "fold_state", "noise_sources"],
+      "additionalProperties": false
+    },
+
+    "tension_map": {
+      "$ref": "tension_map_schema.json"
+    },
+
+    "unfolded_expression": {
+      "type": "string"
+    },
+
+    "recommended_shift": {
+      "type": "string"
+    },
+
+    "rewritten_structure_language": {
+      "type": "string"
+    }
+  },
+
+  "required": [
+    "structure_diagnosis",
+    "tension_map",
+    "unfolded_expression",
+    "recommended_shift",
+    "rewritten_structure_language"
+  ],
+
+  "additionalProperties": false
+}
