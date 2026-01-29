@@ -1,0 +1,20 @@
+Input:
+“I worry that if I relax, everything will collapse.”
+{
+  "structure_diagnosis": {
+    "dimension": "2D",
+    "subject_position": "collapsed",
+    "fold_state": "folded",
+    "noise_sources": ["catastrophic_linking", "over-responsibilization"]
+  },
+  "tension_map": [
+    {
+      "type": "collapse_risk",
+      "location": "system stability boundary",
+      "description": "Relaxation is linked to total system failure."
+    }
+  ],
+  "unfolded_expression": "The speaker treats personal relaxation as a destabilizing force.",
+  "recommended_shift": "Decouple personal state from global system stability.",
+  "rewritten_structure_language": "Relaxation is being framed as a trigger for collapse."
+}
