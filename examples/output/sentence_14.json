@@ -1,0 +1,20 @@
+Input:
+“I collapse into one role whenever tension increases.”
+{
+  "structure_diagnosis": {
+    "dimension": "2D",
+    "subject_position": "collapsed",
+    "fold_state": "folded",
+    "noise_sources": ["role_collapse", "tension_compression"]
+  },
+  "tension_map": [
+    {
+      "type": "collapse_risk",
+      "location": "role structure",
+      "description": "Multiple roles compress into a single rigid identity under stress."
+    }
+  ],
+  "unfolded_expression": "The speaker reduces complexity by defaulting to one role during tension.",
+  "recommended_shift": "Maintain multiple roles without collapsing them into a single identity.",
+  "rewritten_structure_language": "Role diversity is being compressed into a single mode under tension."
+}
