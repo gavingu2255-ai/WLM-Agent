@@ -1,0 +1,20 @@
+Input:
+“I use past patterns to define my current identity.”
+{
+  "structure_diagnosis": {
+    "dimension": "3D",
+    "subject_position": "foregrounded",
+    "fold_state": "multi-layer",
+    "noise_sources": ["identity_sticking", "temporal_blending"]
+  },
+  "tension_map": [
+    {
+      "type": "orientation_shift",
+      "location": "identity-time interface",
+      "description": "Past patterns are used as the template for present identity."
+    }
+  ],
+  "unfolded_expression": "The speaker overlays historical patterns onto current identity.",
+  "recommended_shift": "Separate historical tendencies from present identity formation.",
+  "rewritten_structure_language": "Past patterns are being treated as the active identity layer."
+}
