@@ -1,0 +1,20 @@
+Input:
+“I avoid asking for help because it makes me feel weak.”
+{
+  "structure_diagnosis": {
+    "dimension": "2D",
+    "subject_position": "foregrounded",
+    "fold_state": "folded",
+    "noise_sources": ["identity_attachment", "role_rigidity"]
+  },
+  "tension_map": [
+    {
+      "type": "boundary",
+      "location": "self-evaluation boundary",
+      "description": "Help-seeking is fused with negative identity judgment."
+    }
+  ],
+  "unfolded_expression": "The speaker equates requesting support with personal deficiency.",
+  "recommended_shift": "Separate the action of asking for help from identity evaluation.",
+  "rewritten_structure_language": "Support-seeking is being interpreted as a weakness signal."
+}
