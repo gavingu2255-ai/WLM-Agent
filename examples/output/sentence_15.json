@@ -1,0 +1,20 @@
+Input:
+“I interpret uncertainty as a sign of personal failure.”
+{
+  "structure_diagnosis": {
+    "dimension": "2D",
+    "subject_position": "foregrounded",
+    "fold_state": "folded",
+    "noise_sources": ["causal_inversion", "identity_attachment"]
+  },
+  "tension_map": [
+    {
+      "type": "orientation_shift",
+      "location": "uncertainty frame",
+      "description": "Neutral uncertainty is interpreted as a personal flaw."
+    }
+  ],
+  "unfolded_expression": "The speaker treats uncertainty as evidence of internal deficiency.",
+  "recommended_shift": "Separate uncertainty from identity evaluation.",
+  "rewritten_structure_language": "A neutral unknown is being framed as personal failure."
+}
