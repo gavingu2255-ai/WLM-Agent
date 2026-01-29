@@ -1,0 +1,20 @@
+Input:
+“I try to predict every possible outcome so I won’t be caught off guard.”
+{
+  "structure_diagnosis": {
+    "dimension": "3D",
+    "subject_position": "foregrounded",
+    "fold_state": "folded",
+    "noise_sources": ["anticipatory_projection", "control_expansion"]
+  },
+  "tension_map": [
+    {
+      "type": "orientation_shift",
+      "location": "future frame",
+      "description": "Future uncertainty is treated as a threat requiring full prediction."
+    }
+  ],
+  "unfolded_expression": "The speaker attempts to eliminate uncertainty by forecasting all outcomes.",
+  "recommended_shift": "Allow future variables to remain open without full prediction.",
+  "rewritten_structure_language": "Uncertainty is being treated as a condition requiring total control."
+}
