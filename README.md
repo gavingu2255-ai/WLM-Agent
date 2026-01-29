@@ -1,3 +1,10 @@
+<p align="center">
+  <h1>WLM‑Agent</h1>
+  <p>The official implementation layer of the Wujie Language Model (WLM)</p>
+</p>
+
+---
+
 # WLM‑Agent  
 Official implementation layer of the Wujie Language Model (WLM)
 
@@ -5,7 +12,7 @@ WLM‑Agent is the reference implementation of the WLM Structure Diagnosis Engin
 It transforms natural language into structure‑first representations using:
 
 - dimensional analysis  
-- fold-state detection  
+- fold‑state detection  
 - boundary mapping  
 - tension mapping  
 - structural unfolding  
@@ -15,7 +22,7 @@ This repository provides the **system prompt**, **schemas**, and **examples** re
 
 ---
 
-## Relationship to WLM
+## 📚 Relationship to WLM
 
 This repository is the **implementation layer** of the Wujie Language Model (WLM).  
 The theoretical foundations, dimensional framework, and structural language are defined in:
@@ -27,8 +34,7 @@ WLM‑Agent = implementation
 
 ---
 
-## Repository Structure
-
+## 📁 Repository Structure
 WLM-Agent/
 │
 ├── README.md
@@ -62,10 +68,10 @@ WLM-Agent/
     ├── wlm_agent_n8n.md
     ├── wlm_agent_langchain.py
     └── wlm_agent_livekit.py
-
+    
 ---
 
-## What WLM‑Agent Does
+## 🧠 What WLM‑Agent Does
 
 WLM‑Agent converts natural language into a structured JSON output containing:
 
@@ -93,48 +99,22 @@ All outputs follow the schemas in `/schemas`.
 
 ---
 
-## How to Use
+## 🚀 Quickstart
 
-You can run WLM‑Agent on any LLM backend:
+### 1. Install dependencies
+```bash
+pip install langchain openai livekit-agents
+```
 
-- OpenAI‑compatible APIs  
-- Grok  
-- Anthropic  
-- Azure OpenAI  
-- LangChain  
-- n8n  
-- LiveKit agents  
+### 2. Run WLM‑Agent on a sentence
+```python
+from src.wlm_agent_langchain import run_wlm_agent
 
-Implementation examples are provided in `/src`.
+print(run_wlm_agent("I feel responsible for everyone's emotions."))
+```
 
----
+### 3. Expected output
+A JSON object following the schemas in `/schemas`.
 
-## Examples
-
-The `/examples` folder contains:
-
-- 20 natural‑language inputs  
-- 20 corresponding WLM‑Agent outputs  
-- user‑friendly README  
-- engineering README  
-
-These examples serve as:
-
-- reference outputs  
-- regression tests  
-- backend comparison tests  
-- schema validation samples  
-
----
-
-## Version
-
-WLM‑Agent v1.0  
-Examples v1.1  
-Aligned with WLM (theoretical layer)
-
----
-
-## License
-
-MIT License
+### 4. Explore examples
+See `/examples` for 20 input/output pairs.
