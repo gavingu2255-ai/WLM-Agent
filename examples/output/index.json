@@ -1,0 +1,24 @@
+{
+  "examples": [
+    "output/example_01.json",
+    "output/example_02.json",
+    "output/example_03.json",
+    "output/example_04.json",
+    "output/example_05.json",
+    "output/example_06.json",
+    "output/example_07.json",
+    "output/example_08.json",
+    "output/example_09.json",
+    "output/example_10.json",
+    "output/example_11.json",
+    "output/example_12.json",
+    "output/example_13.json",
+    "output/example_14.json",
+    "output/example_15.json",
+    "output/example_16.json",
+    "output/example_17.json",
+    "output/example_18.json",
+    "output/example_19.json",
+    "output/example_20.json"
+  ]
+}
