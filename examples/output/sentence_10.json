@@ -1,0 +1,20 @@
+Input:
+“I change myself depending on who I’m talking to.”
+{
+  "structure_diagnosis": {
+    "dimension": "3D",
+    "subject_position": "collapsed",
+    "fold_state": "folded",
+    "noise_sources": ["identity_fluidity", "external_orientation"]
+  },
+  "tension_map": [
+    {
+      "type": "boundary",
+      "location": "identity boundary",
+      "description": "Self-definition shifts based on external context."
+    }
+  ],
+  "unfolded_expression": "The speaker adjusts identity according to the interaction partner.",
+  "recommended_shift": "Re-establish a stable internal reference for identity.",
+  "rewritten_structure_language": "Identity is being externally oriented rather than internally anchored."
+}
