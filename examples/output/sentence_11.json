@@ -1,0 +1,20 @@
+Input:
+“I need external confirmation to know whether I’m doing the right thing.”
+{
+  "structure_diagnosis": {
+    "dimension": "2D",
+    "subject_position": "collapsed",
+    "fold_state": "folded",
+    "noise_sources": ["external_orientation", "validation_dependency"]
+  },
+  "tension_map": [
+    {
+      "type": "boundary",
+      "location": "self-evaluation boundary",
+      "description": "Internal assessment is outsourced to external sources."
+    }
+  ],
+  "unfolded_expression": "The speaker relies on external signals to determine correctness.",
+  "recommended_shift": "Re-anchor evaluation in internal criteria rather than external confirmation.",
+  "rewritten_structure_language": "Self-assessment is being delegated to outside feedback."
+}
