@@ -1,0 +1,20 @@
+Input:
+“I merge my identity with others when boundaries feel unclear.”
+{
+  "structure_diagnosis": {
+    "dimension": "3D",
+    "subject_position": "collapsed",
+    "fold_state": "folded",
+    "noise_sources": ["identity_merge", "boundary_blur"]
+  },
+  "tension_map": [
+    {
+      "type": "boundary",
+      "location": "identity boundary",
+      "description": "Self and other become indistinguishable under tension."
+    }
+  ],
+  "unfolded_expression": "The speaker fuses identity with others when boundaries weaken.",
+  "recommended_shift": "Re-establish a stable identity boundary independent of external states.",
+  "rewritten_structure_language": "Identity is being merged with external entities during boundary instability."
+}
