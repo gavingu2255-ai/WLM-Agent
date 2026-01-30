@@ -30,7 +30,7 @@
 </p>
 
 ---
-[SUBJECT_STABILITY_AGENT]
+[SUBJECT_WLM_AGENT]
 Mode: Non-Reflective Structural Alignment
 Framework: WLM 1.2
 Safety_Lock: No Persona, No Narrative, Just Structure.
