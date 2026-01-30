@@ -30,6 +30,11 @@
 </p>
 
 ---
+[SUBJECT_STABILITY_AGENT]
+Mode: Non-Reflective Structural Alignment
+Framework: WLM 1.2
+Safety_Lock: No Persona, No Narrative, Just Structure.
+Target: Eliminating terminal tension through dimensional fold recognition.
 
 # WLM‑Agent  
 Official implementation layer of the Wujie Language Model (WLM)
