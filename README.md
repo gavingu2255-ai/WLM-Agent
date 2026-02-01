@@ -95,11 +95,12 @@ WLM-Agent/
 │       ├── ...
 │       └── sentence_20.json
 │
-└── src/
-    ├── wlm_agent_n8n.md
-    ├── wlm_agent_langchain.py
-    └── wlm_agent_livekit.py
-    
+├── src/
+│   ├── wlm_agent_n8n.md
+│   ├── wlm_agent_langchain.py
+│   └── wlm_agent_livekit.py
+└── ALIGNMENT_NOTICE.MD    
+
 ---
 
 ## 🧠 What WLM‑Agent Does
