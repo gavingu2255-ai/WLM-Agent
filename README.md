@@ -58,7 +58,7 @@ This repository provides the **system prompt**, **schemas**, and **examples** re
 This repository is the **implementation layer** of the Wujie Language Model (WLM).  
 The theoretical foundations, dimensional framework, and structural language are defined in:
 
-https://github.com/gavingu2255-ai/WLM
+[https://github.com/gavingu2255-ai/WLM-Open-Source](https://github.com/gavingu2255-ai/WLM-Open-Source)
 
 WLM = theory  
 WLM‑Agent = implementation
