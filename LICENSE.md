@@ -1,21 +1,95 @@
 # WLM-Agent — License Overview
+This repository contains **two distinct layers**, each governed by a different license:
 
-This repository contains two distinct layers:
+---
 
-1. **Shadow Layer (Structural Content)**  
-   - Includes: protocol descriptions, structural diagrams, role taxonomies, routing logic descriptions, conceptual frameworks, and any non-executable agent architecture.  
-   - Licensed under: **WLM Shadow Layer License 1.0**  
-   - Permissions: read-only, research, citation.  
-   - Prohibitions: no implementation, no training, no derivatives, no commercial use.
+# 1. Shadow Layer (Structural Content)
+**Licensed under: WLM Shadow Layer License 1.0 (Final Freeze)**  
+**Date: 10 February 2026**
 
-2. **Implementation Layer (Code)**  
-   - Includes: executable code, scripts, integration logic, runtime configurations, and tooling required to run WLM-Agent.  
-   - Licensed under: **MIT License** (or your chosen permissive license).  
-   - Permissions: free use, modification, distribution, commercial use, subject to MIT terms.
+The following directories contain **non-executable structural content**, including prompts, schemas, conceptual frameworks, role definitions, routing logic descriptions, and any other materials that describe the architecture or behavior of WLM-Agent without providing runnable code.
 
-Unless explicitly stated otherwise in a file or directory, the following applies:
+These directories are covered by the **Shadow Layer License**:
 
-- `/shadow/`, `/docs/structure/`, `/protocol/` → **Shadow Layer License 1.0**  
-- `/src/`, `/agent/`, `/runtime/`, `/tools/` → **MIT License**
+- `/prompts/`
+- `/schemas/`
+- `/examples/`
+- `/ALIGNMENT_NOTICE.MD`
 
-Refer to `LICENSE.SHADOW_LAYER.md` and `LICENSE.CODE.md` for full terms.
+Shadow Layer content is:
+
+- **Readable**
+- **Citable**
+- **Research-usable**
+
+But strictly **not implementable**, **not trainable**, **not derivable**, and **not commercializable**.
+
+For full terms, see:  
+`LICENSE.SHADOW_LAYER.md`
+
+---
+
+# 2. Implementation Layer (Executable Code)
+**Licensed under: MIT License**  
+**Date: 10 February 2026**
+
+The following directories contain **executable code**, runtime logic, integration code, and tests:
+
+- `/src/`
+- `/tests/`
+
+This code is open-source and may be:
+
+- Used  
+- Modified  
+- Distributed  
+- Integrated  
+- Commercialized  
+
+under the terms of the MIT License.
+
+For full terms, see:  
+`LICENSE.CODE.md`
+
+---
+
+# 3. License Boundary Summary
+
+| Directory / File              | License Type                 |
+|------------------------------|------------------------------|
+| `/prompts/`                  | Shadow Layer License 1.0     |
+| `/schemas/`                  | Shadow Layer License 1.0     |
+| `/examples/`                 | Shadow Layer License 1.0     |
+| `/ALIGNMENT_NOTICE.MD`       | Shadow Layer License 1.0     |
+| `/src/`                      | MIT License                  |
+| `/tests/`                    | MIT License                  |
+| `README.md`                  | MIT (unless structural content is added) |
+| `pyproject.toml`             | MIT                          |
+| `setup.cfg`                  | MIT                          |
+
+---
+
+# 4. Purpose of the Dual-License Structure
+WLM-Agent contains:
+
+- **Structural components** (Shadow Layer)  
+- **Executable components** (MIT)
+
+To protect the WLM protocol while enabling open-source agent tooling, the repository uses a **dual-license model**:
+
+- **Shadow Layer = protected, non-operational, non-derivable**  
+- **Code Layer = open, usable, modifiable**
+
+This ensures:
+
+- Structural integrity  
+- Prevention of unauthorized implementations  
+- Freedom for developers to use the agent runtime  
+
+---
+
+# 5. Author & Copyright
+WLM-Agent  
+Author: **Wujie Gu (Gavin)**  
+Location: Melbourne, Australia  
+Date: **10 February 2026**
